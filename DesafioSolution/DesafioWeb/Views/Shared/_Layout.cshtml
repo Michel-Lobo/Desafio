@@ -2,41 +2,81 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
+
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+    <nav>
+        <div class="nav-wrapper teal">
+            <div class="container">
+                <a href="#"
+                   class="brand-logo">ASP com Material Design</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>@Html.ActionLink("Início", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Sobre", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contato", "Contact", "Home")</li>
                 </ul>
             </div>
         </div>
-    </div>
-    <div class="container body-content">
+    </nav>
+
+    <div class="container">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+    <footer class="page-footer teal">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Minha aplicação ASP.NET</h5>
+                    <p class="grey-text text-lighten-4">
+                        Modifique seu html...
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Sitemap</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3"
+                               href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3"
+                               href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3"
+                               href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3"
+                               href="#!">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <div class="container">
+                © 2014 Copyright Fernando Datorre
+                <a class="grey-text text-lighten-4 right"
+                   href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/Scripts/jquery-2.1.1.min.js"></script>
+
 </body>
+
 </html>
