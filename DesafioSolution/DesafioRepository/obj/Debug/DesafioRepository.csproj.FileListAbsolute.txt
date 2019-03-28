@@ -1,0 +1,14 @@
+C:\Projetos\Desafio\DesafioSolution\DesafioRepository\bin\Debug\DesafioRepository.dll
+C:\Projetos\Desafio\DesafioSolution\DesafioRepository\bin\Debug\DesafioRepository.pdb
+C:\Projetos\Desafio\DesafioSolution\DesafioRepository\obj\Debug\DesafioRepository.csprojResolveAssemblyReference.cache
+C:\Projetos\Desafio\DesafioSolution\DesafioRepository\obj\Debug\DesafioRepository.dll
+C:\Projetos\Desafio\DesafioSolution\DesafioRepository\obj\Debug\DesafioRepository.pdb
+C:\Projetos\Desafio\DesafioSolution\DesafioRepository\bin\Debug\DesafioRepository.dll.config
+C:\Projetos\Desafio\DesafioSolution\DesafioRepository\bin\Debug\DesafioDataBase.dll
+C:\Projetos\Desafio\DesafioSolution\DesafioRepository\bin\Debug\DomainDesafio.dll
+C:\Projetos\Desafio\DesafioSolution\DesafioRepository\bin\Debug\EntityFramework.dll
+C:\Projetos\Desafio\DesafioSolution\DesafioRepository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos\Desafio\DesafioSolution\DesafioRepository\bin\Debug\DesafioDataBase.pdb
+C:\Projetos\Desafio\DesafioSolution\DesafioRepository\bin\Debug\DomainDesafio.pdb
+C:\Projetos\Desafio\DesafioSolution\DesafioRepository\bin\Debug\EntityFramework.xml
+C:\Projetos\Desafio\DesafioSolution\DesafioRepository\bin\Debug\EntityFramework.SqlServer.xml

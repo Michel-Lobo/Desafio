@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Database", "2-Database", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDataBase", "DesafioDataBase\DesafioDataBase.csproj", "{E191898B-D50E-4791-A4D0-85FB47E4F13E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Resository", "3 - Resository", "{7656DCB6-17B3-4EB7-B4B0-E465B9BC559E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Repository", "3 - Repository", "{7656DCB6-17B3-4EB7-B4B0-E465B9BC559E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioService", "DesafioService\DesafioService.csproj", "{83C8E35A-A16C-4E30-84A1-4E86CC79C8B2}"
 EndProject

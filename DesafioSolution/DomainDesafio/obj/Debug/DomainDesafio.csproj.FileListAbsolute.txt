@@ -1,0 +1,5 @@
+C:\Projetos\Desafio\DesafioSolution\DomainDesafio\bin\Debug\DomainDesafio.dll
+C:\Projetos\Desafio\DesafioSolution\DomainDesafio\bin\Debug\DomainDesafio.pdb
+C:\Projetos\Desafio\DesafioSolution\DomainDesafio\obj\Debug\DomainDesafio.csprojResolveAssemblyReference.cache
+C:\Projetos\Desafio\DesafioSolution\DomainDesafio\obj\Debug\DomainDesafio.dll
+C:\Projetos\Desafio\DesafioSolution\DomainDesafio\obj\Debug\DomainDesafio.pdb

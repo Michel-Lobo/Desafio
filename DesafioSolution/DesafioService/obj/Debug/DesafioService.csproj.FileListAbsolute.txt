@@ -1,0 +1,13 @@
+C:\Projetos\Desafio\DesafioSolution\DesafioService\bin\Debug\DesafioService.dll
+C:\Projetos\Desafio\DesafioSolution\DesafioService\bin\Debug\DesafioService.pdb
+C:\Projetos\Desafio\DesafioSolution\DesafioService\obj\Debug\DesafioService.csprojResolveAssemblyReference.cache
+C:\Projetos\Desafio\DesafioSolution\DesafioService\obj\Debug\DesafioService.dll
+C:\Projetos\Desafio\DesafioSolution\DesafioService\obj\Debug\DesafioService.pdb
+C:\Projetos\Desafio\DesafioSolution\DesafioService\bin\Debug\DesafioDataBase.dll
+C:\Projetos\Desafio\DesafioSolution\DesafioService\bin\Debug\DesafioRepository.dll
+C:\Projetos\Desafio\DesafioSolution\DesafioService\bin\Debug\EntityFramework.dll
+C:\Projetos\Desafio\DesafioSolution\DesafioService\bin\Debug\DomainDesafio.dll
+C:\Projetos\Desafio\DesafioSolution\DesafioService\bin\Debug\DesafioDataBase.pdb
+C:\Projetos\Desafio\DesafioSolution\DesafioService\bin\Debug\DesafioRepository.pdb
+C:\Projetos\Desafio\DesafioSolution\DesafioService\bin\Debug\EntityFramework.xml
+C:\Projetos\Desafio\DesafioSolution\DesafioService\bin\Debug\DomainDesafio.pdb
