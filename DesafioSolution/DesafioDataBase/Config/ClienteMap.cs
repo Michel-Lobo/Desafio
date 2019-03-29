@@ -14,8 +14,13 @@ namespace DesafioDataBase.Config
         {
             HasKey(p => p.IDCliente)
                 .Property(p => p.IDCliente).HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity);
+            Property(p => p.NomeCliente)
+                .HasMaxLength(100)
+                .IsRequired();
 
-           
+
+
+
         }
     }
 }

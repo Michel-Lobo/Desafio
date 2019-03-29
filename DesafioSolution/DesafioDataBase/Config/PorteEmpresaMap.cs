@@ -14,9 +14,12 @@ namespace DesafioDataBase.Config
         {
             HasKey(p => p.IDPorteEmpresa)
                 .Property(p => p.IDPorteEmpresa).HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity);
-
+            Property(p => p.NomePorteEmpresa)
+                .HasMaxLength(50)
+                .IsRequired();
             HasMany(p => p.Clientes)
-                .WithRequired().HasForeignKey(p => p.IDPorteEmpresa);
+                .WithRequired(q => q.PorteEmpresa)
+                .HasForeignKey(p => p.IDPorteEmpresa);
                 
        
         }

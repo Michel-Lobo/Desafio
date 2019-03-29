@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesafioWeb.App_Start;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,7 @@ namespace DesafioWeb
     {
         protected void Application_Start()
         {
+            ConfigMap config = new ConfigMap();
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

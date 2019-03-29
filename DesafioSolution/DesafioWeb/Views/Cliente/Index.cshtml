@@ -1,4 +1,4 @@
-﻿@model DesafioWeb.ViewModels.ClienteVM
+﻿@model IEnumerable<DesafioWeb.ViewModels.ClienteVM>
 
 @{
     ViewBag.Title = "Index";
@@ -6,3 +6,33 @@
 
 <h2>Index</h2>
 
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="responsive-table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NomeCliente)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NomePorteEmpresa)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomeCliente)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomePorteEmpresa)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Editar", new { id=item.IDCliente }) |
+            @Html.ActionLink("Excluir", "Delete", new { id=item.IDCliente })
+        </td>
+    </tr>
+}
+
+</table>

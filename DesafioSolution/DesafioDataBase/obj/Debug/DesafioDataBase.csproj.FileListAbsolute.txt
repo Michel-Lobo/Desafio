@@ -10,3 +10,5 @@ C:\Projetos\Desafio\DesafioSolution\DesafioDataBase\bin\Debug\EntityFramework.xm
 C:\Projetos\Desafio\DesafioSolution\DesafioDataBase\bin\Debug\EntityFramework.SqlServer.xml
 C:\Projetos\Desafio\DesafioSolution\DesafioDataBase\obj\Debug\DesafioDataBase.dll
 C:\Projetos\Desafio\DesafioSolution\DesafioDataBase\obj\Debug\DesafioDataBase.pdb
+C:\Projetos\Desafio\DesafioSolution\DesafioDataBase\obj\Debug\DesafioDataBase.Migrations.inicial.resources
+C:\Projetos\Desafio\DesafioSolution\DesafioDataBase\obj\Debug\DesafioDataBase.csproj.GenerateResource.Cache

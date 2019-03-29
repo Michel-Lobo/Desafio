@@ -53,6 +53,11 @@
     <Compile Include="Config\ClienteMap.cs" />
     <Compile Include="Config\PorteEmpresaMap.cs" />
     <Compile Include="DeasafioContext.cs" />
+    <Compile Include="Migrations\201903291309085_inicial.cs" />
+    <Compile Include="Migrations\201903291309085_inicial.Designer.cs">
+      <DependentUpon>201903291309085_inicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -64,6 +69,11 @@
       <Project>{1a80ec4d-5a80-4af1-bdcb-10fa54403c0d}</Project>
       <Name>DomainDesafio</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201903291309085_inicial.resx">
+      <DependentUpon>201903291309085_inicial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
