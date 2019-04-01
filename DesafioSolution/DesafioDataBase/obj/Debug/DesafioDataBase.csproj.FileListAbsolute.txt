@@ -1,4 +1,3 @@
-C:\Projetos\Desafio\DesafioSolution\DesafioDataBase\obj\Debug\DesafioDataBase.csprojResolveAssemblyReference.cache
 C:\Projetos\Desafio\DesafioSolution\DesafioDataBase\bin\Debug\DesafioDataBase.dll.config
 C:\Projetos\Desafio\DesafioSolution\DesafioDataBase\bin\Debug\DesafioDataBase.dll
 C:\Projetos\Desafio\DesafioSolution\DesafioDataBase\bin\Debug\DesafioDataBase.pdb
@@ -27,3 +26,6 @@ E:\Projetos\Desafio\DesafioSolution\DesafioDataBase\obj\Debug\DesafioDataBase.cs
 E:\Projetos\Desafio\DesafioSolution\DesafioDataBase\obj\Debug\DesafioDataBase.csproj.CoreCompileInputs.cache
 E:\Projetos\Desafio\DesafioSolution\DesafioDataBase\obj\Debug\DesafioDataBase.dll
 E:\Projetos\Desafio\DesafioSolution\DesafioDataBase\obj\Debug\DesafioDataBase.pdb
+C:\Projetos\Desafio\DesafioSolution\DesafioDataBase\obj\Debug\DesafioDataBase.csprojAssemblyReference.cache
+C:\Projetos\Desafio\DesafioSolution\DesafioDataBase\obj\Debug\DesafioDataBase.csproj.CoreCompileInputs.cache
+C:\Projetos\Desafio\DesafioSolution\DesafioDataBase\obj\Debug\DesafioDataBase.csproj.CopyComplete
