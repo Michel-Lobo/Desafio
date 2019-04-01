@@ -9,6 +9,6 @@ namespace DesafioService
 {
     public interface IClienteService: IServiceBase<Cliente>
     {
-
+        void Update(Cliente cliente);
     }
 }

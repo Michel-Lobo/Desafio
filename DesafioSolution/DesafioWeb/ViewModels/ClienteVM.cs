@@ -13,9 +13,9 @@ namespace DesafioWeb.ViewModels
         [Display(Name ="Nome")]
         [Required(ErrorMessage ="Informe o nome do cliente")]
         public string NomeCliente { get; set; }
-        [Display(Name = "Porte da Empresa")]
         [Required(ErrorMessage = "Informe o porte da empresa")]
         public int IDPorteEmpresa { get; set; }
+        [Display(Name = "Porte da Empresa")]
         public String NomePorteEmpresa { get; set; }
     }
 }

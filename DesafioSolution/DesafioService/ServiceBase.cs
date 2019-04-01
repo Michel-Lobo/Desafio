@@ -37,9 +37,6 @@ namespace DesafioService
             return _repositoty.GetAll();
         }
 
-        public void Update(Entity entity)
-        {
-            _repositoty.Update(entity);
-        }
+        
     }
 }

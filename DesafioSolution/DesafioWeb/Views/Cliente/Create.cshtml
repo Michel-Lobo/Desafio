@@ -31,20 +31,11 @@
                 @Html.ValidationMessageFor(model => model.NomeCliente, "", new { @class = "text-danger" })
             </div>
         </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.IDPorteEmpresa, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.IDPorteEmpresa, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.IDPorteEmpresa, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
         <div class="form-group">
             @Html.LabelFor(model => model.NomePorteEmpresa, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.NomePorteEmpresa, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.NomePorteEmpresa, "", new { @class = "text-danger" })
+                @Html.DropDownListFor(model => model.IDPorteEmpresa, (SelectList)ViewBag.PorteEmpresaID, "Selecione...", htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.IDPorteEmpresa, "", new { @class = "text-danger" })
             </div>
         </div>
 

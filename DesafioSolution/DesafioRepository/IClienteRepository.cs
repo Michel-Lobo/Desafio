@@ -9,5 +9,6 @@ namespace DesafioRepository
 {
     public interface IClienteRepository: IRepository<Cliente>
     {
+        void Update(Cliente cliente);
     }
 }

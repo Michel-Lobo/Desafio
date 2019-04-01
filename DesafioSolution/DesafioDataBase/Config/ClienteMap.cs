@@ -17,6 +17,7 @@ namespace DesafioDataBase.Config
             Property(p => p.NomeCliente)
                 .HasMaxLength(100)
                 .IsRequired();
+            Property(p => p.DataExclusao).IsOptional();
 
 
 

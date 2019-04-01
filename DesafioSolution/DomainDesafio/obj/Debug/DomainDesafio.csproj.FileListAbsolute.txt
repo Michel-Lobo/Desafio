@@ -3,3 +3,8 @@ C:\Projetos\Desafio\DesafioSolution\DomainDesafio\bin\Debug\DomainDesafio.pdb
 C:\Projetos\Desafio\DesafioSolution\DomainDesafio\obj\Debug\DomainDesafio.csprojResolveAssemblyReference.cache
 C:\Projetos\Desafio\DesafioSolution\DomainDesafio\obj\Debug\DomainDesafio.dll
 C:\Projetos\Desafio\DesafioSolution\DomainDesafio\obj\Debug\DomainDesafio.pdb
+E:\Projetos\Desafio\DesafioSolution\DomainDesafio\bin\Debug\DomainDesafio.dll
+E:\Projetos\Desafio\DesafioSolution\DomainDesafio\bin\Debug\DomainDesafio.pdb
+E:\Projetos\Desafio\DesafioSolution\DomainDesafio\obj\Debug\DomainDesafio.csproj.CoreCompileInputs.cache
+E:\Projetos\Desafio\DesafioSolution\DomainDesafio\obj\Debug\DomainDesafio.dll
+E:\Projetos\Desafio\DesafioSolution\DomainDesafio\obj\Debug\DomainDesafio.pdb

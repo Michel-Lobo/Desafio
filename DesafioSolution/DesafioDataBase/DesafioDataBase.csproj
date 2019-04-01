@@ -41,6 +41,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -53,15 +54,17 @@
     <Compile Include="Config\ClienteMap.cs" />
     <Compile Include="Config\PorteEmpresaMap.cs" />
     <Compile Include="DeasafioContext.cs" />
-    <Compile Include="Migrations\201903291309085_inicial.cs" />
-    <Compile Include="Migrations\201903291309085_inicial.Designer.cs">
-      <DependentUpon>201903291309085_inicial.cs</DependentUpon>
+    <Compile Include="Migrations\201903311525133_inicial.cs" />
+    <Compile Include="Migrations\201903311525133_inicial.Designer.cs">
+      <DependentUpon>201903311525133_inicial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -71,8 +74,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201903291309085_inicial.resx">
-      <DependentUpon>201903291309085_inicial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201903311525133_inicial.resx">
+      <DependentUpon>201903311525133_inicial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

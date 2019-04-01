@@ -9,7 +9,7 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="responsive-table">
+<table class="table table-striped">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.NomeCliente)
@@ -30,7 +30,7 @@
         </td>
         <td>
             @Html.ActionLink("Editar", "Editar", new { id=item.IDCliente }) |
-            @Html.ActionLink("Excluir", "Delete", new { id=item.IDCliente })
+            @Html.ActionLink("Excluir", "Delete", new { id=item.IDCliente }, new { onclick = "return confirm('Você realmente deseja excluir esse registro')" })
         </td>
     </tr>
 }

@@ -17,6 +17,8 @@ namespace DesafioDataBase.Config
             Property(p => p.NomePorteEmpresa)
                 .HasMaxLength(50)
                 .IsRequired();
+            Property(p => p.DataExclusao).IsOptional();
+             
             HasMany(p => p.Clientes)
                 .WithRequired(q => q.PorteEmpresa)
                 .HasForeignKey(p => p.IDPorteEmpresa);

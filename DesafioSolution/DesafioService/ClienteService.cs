@@ -1,4 +1,5 @@
-﻿using Entities;
+﻿using DesafioRepository;
+using Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,14 @@ namespace DesafioService
 {
     public class ClienteService : ServiceBase<Cliente>, IClienteService
     {
-        
+       private ClienteRepository _clienteRepository;
+        public ClienteService()
+        {
+            _clienteRepository = new ClienteRepository();
+        }
+        public void Update(Cliente cliente)
+        {
+            _clienteRepository.Update(cliente);
+        }
     }
 }

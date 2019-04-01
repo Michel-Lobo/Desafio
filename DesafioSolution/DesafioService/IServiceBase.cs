@@ -11,7 +11,6 @@ namespace DesafioService
         T Get(int key);
         IQueryable<T> GetAll();
         void Add(T entity);
-        void Update(T entity);
         void Delete(T entity);
     }
 }

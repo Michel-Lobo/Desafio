@@ -26,5 +26,19 @@ namespace DesafioDataBase
             modelBuilder.Configurations.Add(new ClienteMap());
             modelBuilder.Configurations.Add(new PorteEmpresaMap());
         }
+        public override int SaveChanges()
+        {
+            var changeSet = ChangeTracker.Entries<BaseEntity>();
+            if (changeSet != null)
+            {
+                foreach (var entry in changeSet.Where(c => c.State == EntityState.Added || c.State == EntityState.Modified))
+                {
+                    entry.Entity.DataModificacao = DateTime.Now;
+                    
+                }
+            }
+            
+            return base.SaveChanges();
+        }
     }
 }

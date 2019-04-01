@@ -9,7 +9,7 @@ namespace DesafioDataBase.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(DesafioDataBase.DesafioContext context)

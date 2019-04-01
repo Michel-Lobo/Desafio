@@ -23,7 +23,7 @@ namespace DesafioRepository
 
         public void Delete(Entity entity)
         {
-            _dbSet.Remove(entity);
+            _context.Entry(entity).State = EntityState.Modified;
             _context.SaveChanges();
         }
 
@@ -48,13 +48,6 @@ namespace DesafioRepository
         {
 
             return _context.Set<Entity>();
-        }
-
-        public void Update(Entity entity)
-        {
-            _context.Entry(entity).State = EntityState.Modified;
-
-
         }
 
         public void Commit()
