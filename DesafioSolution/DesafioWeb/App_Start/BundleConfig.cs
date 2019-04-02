@@ -23,18 +23,16 @@ namespace DesafioWeb
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
-            bundles.Add(new ScriptBundle("~/bundles/material-kit").Include(
-                 "~/js/core/jquery.min.js",
-                 "~/js/core/popper.js",
-                  "~/js/core/bootstrap-material-design.min.js"));
+            bundles.Add(new ScriptBundle("~/bundles/datatables").Include(
+                 "~/Content/DataTables/datatables.min.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
 
 
-            bundles.Add(new StyleBundle("~/Content/material-kit").Include(
-                      "~/Content/css/material-kit.min.css"));
+            bundles.Add(new StyleBundle("~/Content/datatables").Include(
+                      "~/Content/DataTables/datatables.min.css"));
         }
     }
 }

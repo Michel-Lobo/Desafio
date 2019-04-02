@@ -1,15 +1,34 @@
 ﻿@model IEnumerable<DesafioWeb.ViewModels.ClienteVM>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Lista de Clientes";
 }
+<script>
+    $(document).ready(function () {
+        $.getJSON('@Url.Action("GetClientes", "Cliente")',
+            function (json) {
+                var tr;
+                for (var i = 0; i < json.length; i++) {
+                    var linkDelete = '@Html.ActionLink("Excluir", "Delete", new { id = "replaceDelete" })';
+                    var linkEdit = '@Html.ActionLink("Editar", "Editar", new { id = "replaceEdit" })';
+                    tr = $('<tr/>');
+                    tr.append("<td>" + json[i].NomeCliente + "</td>");
+                    tr.append("<td>" + json[i].NomePorteEmpresa + "</td>");
 
-<h2>Index</h2>
+                    tr.append("<td>" + linkEdit.replace("replaceEdit", json[i].IDCliente) +"</td>");
+                    tr.append("<td>" + linkDelete.replace("replaceDelete", json[i].IDCliente) + "</td>");
+                    $('#tblCliente').append(tr);
+                }
+            });
+    });
+</script>
+<h2>Lista de Clientes</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Adicionar Cliente", "Create")
 </p>
-<table class="table table-striped">
+
+<table class="table table-striped" id="tblCliente" name="tblCliente">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.NomeCliente)
@@ -18,21 +37,7 @@
             @Html.DisplayNameFor(model => model.NomePorteEmpresa)
         </th>
         <th></th>
+        <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.NomeCliente)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.NomePorteEmpresa)
-        </td>
-        <td>
-            @Html.ActionLink("Editar", "Editar", new { id=item.IDCliente }) |
-            @Html.ActionLink("Excluir", "Delete", new { id=item.IDCliente }, new { onclick = "return confirm('Você realmente deseja excluir esse registro')" })
-        </td>
-    </tr>
-}
-
-</table>
+    </table>

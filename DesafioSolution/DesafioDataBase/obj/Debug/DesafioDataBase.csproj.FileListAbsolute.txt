@@ -20,7 +20,6 @@ E:\Projetos\Desafio\DesafioSolution\DesafioDataBase\bin\Debug\EntityFramework.Sq
 E:\Projetos\Desafio\DesafioSolution\DesafioDataBase\bin\Debug\DomainDesafio.pdb
 E:\Projetos\Desafio\DesafioSolution\DesafioDataBase\bin\Debug\EntityFramework.xml
 E:\Projetos\Desafio\DesafioSolution\DesafioDataBase\bin\Debug\EntityFramework.SqlServer.xml
-E:\Projetos\Desafio\DesafioSolution\DesafioDataBase\obj\Debug\DesafioDataBase.csprojResolveAssemblyReference.cache
 E:\Projetos\Desafio\DesafioSolution\DesafioDataBase\obj\Debug\DesafioDataBase.Migrations.inicial.resources
 E:\Projetos\Desafio\DesafioSolution\DesafioDataBase\obj\Debug\DesafioDataBase.csproj.GenerateResource.Cache
 E:\Projetos\Desafio\DesafioSolution\DesafioDataBase\obj\Debug\DesafioDataBase.csproj.CoreCompileInputs.cache

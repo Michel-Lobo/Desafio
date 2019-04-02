@@ -15,7 +15,7 @@ namespace DesafioDataBase
         public DbSet<Cliente> Cliente { get; set; }
         public DbSet<PorteEmpresa> PorteEmpresa { get; set; }
         public DesafioContext()
-            :base("DBDesafio-local")
+            :base("DBDesafio")
         {
 
         }

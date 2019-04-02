@@ -18,6 +18,11 @@ namespace DesafioWeb.Controllers
         // GET: Cliente
         public ActionResult Index()
         {
+            return View();
+        }
+    
+        public JsonResult GetClientes()
+        {
             var clientes = from c in Mapper.Map<List<Cliente>, List<ClienteVM>>(_serviceCliente.GetAll().Where(p => p.DataExclusao == null).ToList())
                            join p in Mapper.Map<List<PorteEmpresa>, List<PorteEmpresaVM>>(_servicePorte.GetAll().Where(p => p.DataExclusao == null).ToList())
                            on c.IDPorteEmpresa equals p.IDPorteEmpresa
@@ -38,7 +43,7 @@ namespace DesafioWeb.Controllers
                     
             }
                            
-            return View(listCliente);
+            return Json(listCliente, JsonRequestBehavior.AllowGet);
         }
         
 
